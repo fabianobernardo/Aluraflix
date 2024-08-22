@@ -2,6 +2,7 @@ body {
     color:black;
     background: white;
     margin: Opx;
+    margin-bottom: 100px;
 }
 
 header{
@@ -10,4 +11,24 @@ header{
     font-size: 32px;
     color: green;
 
+}
+.categoria-videoas{
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}   
+ .categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .categoria-videoas img{
+    opacity: 0.5;
+    height: 20px;
+ }
+.categoria-videoas img:houver{
+    opacity: 1.0;
+    border: 1px solid blue;
+}
+.categoria h2{
+    color: aqua(202, 148, 31) ;
 }
